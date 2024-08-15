@@ -8,7 +8,7 @@ const ProjectsComponent = forwardRef((props, ref) => {
             {projectsData.map((data , index) => (
                 <div className="projectsContainer" key={index}>
                     <div className="imageContainer">
-                        <img src={ "src/assets/" + data.image } alt="oops... something went wrong" />
+                        <img src={`src/assets/${data.image}`} alt="oops... something went wrong" />
                     </div>
                     <div className="contentContainer">
                         <h2>{data.title}</h2>

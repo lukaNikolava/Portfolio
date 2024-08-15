@@ -2,7 +2,7 @@ import HomePage from "../pages/home";
 
 const routes = [
     {
-        path: '/',
+        path: '/Portfolio/',
         element: <HomePage/>
     }
 ]

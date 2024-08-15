@@ -1,5 +1,5 @@
 import './style.css'
-//test
+
 export const HeaderComponent = ({intersecting}) =>{
     return(
         <header>
